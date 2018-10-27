@@ -203,3 +203,25 @@ footer {
     right: 2px;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  header img {
+    height: 16px;
+  }
+
+  .top-nav {
+    margin-right: 0.5rem;
+    list-style-type: none;
+  }
+
+  .top-nav li {
+    display: inline-block;
+    margin-right: 0.5rem;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .main {
+    margin-left: 1rem;
+  }
+}
